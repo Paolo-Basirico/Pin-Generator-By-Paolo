@@ -46,7 +46,7 @@ int main () {
 			pin = rand();
 			cout << "Pin number "<< (i + 1) << ": " << pin << endl;
 		}
-
+system("pause");
+return 0;
 }
-    system ("pause");
-    return 0;
+ 
