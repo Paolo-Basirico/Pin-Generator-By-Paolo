@@ -24,7 +24,7 @@ int main () {
 
 		cin >> numberOfPin;
 		
-		if (numberOfPin < 0)
+		if ((numberOfPin < 0) || (numberOfPin == 0))
 			{
 				cout << endl;
 				cout << "======================"<<endl;
@@ -49,4 +49,3 @@ int main () {
 system("pause");
 return 0;
 }
- 
