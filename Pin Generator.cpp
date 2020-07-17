@@ -24,7 +24,7 @@ int main () {
 
 		cin >> numberOfPin;
 		
-		if (numberOfPin == 0)
+		if (numberOfPin < 0)
 			{
 				cout << endl;
 				cout << "======================"<<endl;
